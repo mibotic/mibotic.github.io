@@ -159,7 +159,7 @@ body {
   background: #ff8819;
   background: -moz-linear-gradient(left, #ff8819 0%, #ff8819 100%);
   background: -webkit-linear-gradient(left, #ff8819 0%,#ff8819 100%);
-  background: linear-gradient(to right, #ff8819 0%,##ff8819100%);
+  background: linear-gradient(to right, #ff8819 0%, #ff8819 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf6c11', endColorstr='#ff8819',GradientType=1 );
   position:absolute;
   z-index:2;
