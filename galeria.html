@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MiBotic - Inventa un Robot</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Ninestars - v2.0.0
+  * Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="100883451764011"
+  theme_color="#ff7e29"
+  logged_in_greeting="Hola, Como podemos ayudarte?"
+  logged_out_greeting="Hola, Como podemos ayudarte?">
+      </div>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex">
+
+      <div class="logo mr-auto">
+        <a href="index.html"><img src="assets/img/hero.png" alt="" class="img-fluid"></a>
+        <h1 class="text-light"><a href="index.html"><span></span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header">MiBotic</a></li>
+          <li><a href="#robots">Robots</a></li>
+          <li><a href="#faq">Contacto</a></li>
+
+          <li class="get-started"><a href="#about">CREAR</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+<section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+            <li data-filter=".filter-edu" class="filter-active" >Todos</li>
+              <li data-filter=".filter-android">Humanoides</li>
+              <li data-filter=".filter-car">Robot Cars</li>
+              <li data-filter=".filter-biped">Bípedos</li>
+              <li data-filter=".filter-cuadrus" >Cuadrúpedos</li>
+              <li data-filter=".filter-edu"  >Kits Educativos</li>
+              <li data-filter=".filter-dron" >Drones</li>
+
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-android">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/poppy.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/poppy.png" data-gall="portfolioGallery" class="venobox" title="Poppy Robot"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Poppy</h4>
+                <p>Humanoide</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-android">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/icub.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/icub.jpg" data-gall="portfolioGallery" class="venobox" title="iCub Robot"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>iCub</h4>
+                <p>Humanoide</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-android">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/inmoov.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/inmoov.jpg" data-gall="portfolioGallery" class="venobox" title="INMOOV ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Inmoov</h4>
+                <p>Humanoide</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-android">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dimitri.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/dimitri.png" data-gall="portfolioGallery" class="venobox" title="DIMITRI ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Dimitri</h4>
+                <p>Humanoide</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-android">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/igus.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/igus.jpg" data-gall="portfolioGallery" class="venobox" title="IGUS ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Igus</h4>
+                <p>Humanoide</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-android">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/yanshe.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/yanshe.jpg" data-gall="portfolioGallery" class="venobox" title="YANSHEE ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Yanshee</h4>
+                <p>Humanoides</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-popu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ottorobot.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/ottorobot.jpg" data-gall="portfolioGallery" class="venobox" title="OTTO ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Otto</h4>
+                <p>Bípedo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-biped">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/nano.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/nano.jpg" data-gall="portfolioGallery" class="venobox" title="NANO ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Nano Arduino</h4>
+                <p>Bípedo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-biped">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/arduinobiped.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/arduinobiped.jpg" data-gall="portfolioGallery" class="venobox" title="ARDUINO BI ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Arduino Bi</h4>
+                <p>Bípedo</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-biped">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/gogsybot.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/gogsybot.jpg" data-gall="portfolioGallery" class="venobox" title="GOGSY ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Gogsy</h4>
+                <p>Bípedo</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-biped">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/titorobot.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/titorobot.jpg" data-gall="portfolioGallery" class="venobox" title="TITO ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Tito</h4>
+                <p>Bípedo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-biped">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/bipedarduino.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/bipedarduino.jpg" data-gall="portfolioGallery" class="venobox" title="ARDUINO BIPEDO"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Arduino Bibot</h4>
+                <p>Bípedo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cuadrus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/gorillabot.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/gorillabot.jpg" data-gall="portfolioGallery" class="venobox" title="GORILLA ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Gorillabot</h4>
+                <p>Cuadrúpedo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cuadrus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/goodboyrobot.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/goodboyrobot.jpg" data-gall="portfolioGallery" class="venobox" title="GOODBOY ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Goodboy</h4>
+                <p>Cuadrúpedo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-popu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/mitcheetah.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/micheetah.jpg" data-gall="portfolioGallery" class="venobox" title="CHEETAH ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Cheetah</h4>
+                <p>Raspeberry Pi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cuadrus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/spotmicro.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/spotmicro.jpg" data-gall="portfolioGallery" class="venobox" title="SPOTMICRO ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Spotmicro</h4>
+                <p>Comercial</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cuadrus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/fenrir.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/fenrir.png" data-gall="portfolioGallery" class="venobox" title="FENRIR ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Fenrir</h4>
+                <p>Raspberry Pi</p>
+              </div>
+            </div>
+          </div>
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-cuadrus">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/turtlerobot.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/turtlerobot.jpg" data-gall="portfolioGallery" class="venobox" title="TURTLE ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Turtlebot</h4>
+                <p>Raspberry Pi</p>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-car">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/raspberrycarr.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/raspberrycarr.jpg" data-gall="portfolioGallery" class="venobox" title="TURTLE CAR"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Turtlebot Car</h4>
+                <p>Raspberry Pi</p>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-car">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/donkeycar.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/donkeycar.jpg" data-gall="portfolioGallery" class="venobox" title="Car Robot"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Donkey Car</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-car">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/corobotspark.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/corobotspark.jpg" data-gall="portfolioGallery" class="venobox" title="COROBOTSPARK"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Corobot Spark</h4>
+                <p>Raspberry Pi</p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-car">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/husarion.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/husarion.jpg" data-gall="portfolioGallery" class="venobox" title="HUSARION ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Husarion</h4>
+                <p>Comercial</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-car">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/carr.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/carr.jpg" data-gall="portfolioGallery" class="venobox" title="CAR ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Car Robot</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-car">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/balancin.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/balancin.jpg" data-gall="portfolioGallery" class="venobox" title="BALANCIN ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Balancin</h4>
+                <p>Raspberry Pi</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-edu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/perrobot.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/perrobot.jpg" data-gall="portfolioGallery" class="venobox" title="PERRO ROBOT LEGO"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Perro Robot</h4>
+                <p>Lego Mindstorms Ev3 Educatión</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-edu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/robotikid.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/robotikid.jpeg" data-gall="portfolioGallery" class="venobox" title="KIT ARDUINO EDUCATIVO"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Kit Arduino para niños</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-edu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/alacran.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/alacran.jpg" data-gall="portfolioGallery" class="venobox" title="MAKEBLOCK ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Makeblock</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-edu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/creakit.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/creakit.jpg" data-gall="portfolioGallery" class="venobox" title="CREA KIT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Crea tu propio Kit</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-edu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cienciverde.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/cienciverde.jpg" data-gall="portfolioGallery" class="venobox" title="CIENCIA VERDE"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Kit Ciencia Verde</h4>
+                <p>Circuitos I</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-edu">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/brazo.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/brazo.jpg" data-gall="portfolioGallery" class="venobox" title="BRAZO ROBOT"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Brazo Robot</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dron">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/drone_refo.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/drone_refo.jpg" data-gall="portfolioGallery" class="venobox" title="DRONE REFORESTACIÓN"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>DRON REFORESTACIÓN</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dron">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/droneubuntu.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/droneubuntu.png" data-gall="portfolioGallery" class="venobox" title="BRONE UBUNTU"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Drone Ubuntu</h4>
+                <p>Ubuntu</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dron">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dronefpga.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/dronefpga.jpg" data-gall="portfolioGallery" class="venobox" title="DRONE FPGA"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Drone FPGA</h4>
+                <p>FPGA</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dron">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dronedelivery.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/dronedelivery.jpg" data-gall="portfolioGallery" class="venobox" title="DRONE DELIVERY"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Drone Delivery</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dron">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dronos.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/dronos.jpg" data-gall="portfolioGallery" class="venobox" title="DRONOS"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>DRONOS</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-dron">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/drone_ala.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/drone_ala.jpg" data-gall="portfolioGallery" class="venobox" title="DRON ALA"><i class="icofont-plus-circle"></i></a>
+                <a href="#" title="More Details"><i class="icofont-link"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>DRON ALA</h4>
+                <p>Arduino</p>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      </div></div>
+    </section><!-- End Portfolio Section -->
+
+
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact" data-aos="fade-up" data-aos-delay="100">
+            <h3>OAXACA</h3>
+            <p>
+              Plaza Bella,
+              Oaxaca de Juarez <br>
+              <br>
+              México <br><br>
+              <strong>Correo:</strong> hola@mibotic.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="200">
+            <h4>MAPA</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Casa</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Metodo</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terminos y condiciones</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Políticas de privacidad</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300">
+            <h4>ROBOTS POPULARES</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://mibot.liblap.com/otto">OTTO - KIT ARUINO</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://mibot.liblap.com/car">MIBOTIC CAR - KIT ARDUINO</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://mibot.liblap.com/arm">MIBOTIC ARM - KIT ARDUINO O RASPBERRY</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://mibot.liblap.com/pegasus">PEGASUS CAR - KIT RASPBERRY</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://mibot.liblap.com/uno">MIBOTIC UNO - KIT CIENCIA</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="400">
+
+            <div class="social-links mt-3">
+              <a href="https://facebook.com/mibotic" class="facebook"><i class="bx bxl-facebook"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mibotic</span></strong>. Todos los derechos reservados
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
+        Diseño por<a href="https://liblap.com/">Liblap</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="assets/js/script.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
